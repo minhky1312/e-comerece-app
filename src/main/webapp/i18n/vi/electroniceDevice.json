@@ -1,0 +1,35 @@
+{
+  "myappApp": {
+    "electroniceDevice": {
+      "home": {
+        "title": "Electronice Devices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Electronice Device",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Electronice Device",
+        "notFound": "No Electronice Devices found"
+      },
+      "created": "Một Electronice Device mới được tạo với định danh {{ param }}",
+      "updated": "Một Electronice Device cập nhật với định danh {{ param }}",
+      "deleted": "Một Electronice Device đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Electronice Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Electronice Device"
+      },
+      "id": "ID",
+      "tenSanpham": "Ten Sanpham",
+      "giaBan": "Gia Ban",
+      "loaiSanpham": "Loai Sanpham",
+      "soluong": "Soluong",
+      "sanphammoi": "Sanphammoi",
+      "overView": "Over View",
+      "dungLuong": "Dung Luong",
+      "maHoa": "Ma Hoa",
+      "tocDo": "Toc Do",
+      "mTBF": "M TBF",
+      "nANDFlash": "N AND Flash",
+      "heDieuhanhhotro": "He Dieuhanhhotro"
+    }
+  }
+}

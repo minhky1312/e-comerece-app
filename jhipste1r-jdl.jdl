@@ -1,0 +1,32 @@
+
+enum Loaisanpham {
+	DIENTHOAI,
+    MAYTINHXACHTAY,
+    GAMINGGEAR,
+    TAINGHE,
+    LOA,
+    MAYIN,
+    OCUNG,
+    MANHINHMAYTINH
+}
+
+entity ElectroniceDevice {
+	tenSanpham String
+    giaBan Long
+    loaiSanpham Loaisanpham
+    soluong Long
+    sanphammoi Boolean
+    overView String
+    dungLuong String
+    maHoa String
+    tocDo String
+    mTBF String
+    nANDFlash String
+    heDieuhanhhotro String
+
+}
+
+
+paginate all with pagination
+
+service all with serviceImpl

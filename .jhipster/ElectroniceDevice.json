@@ -1,0 +1,65 @@
+{
+  "name": "ElectroniceDevice",
+  "fields": [
+    {
+      "fieldName": "tenSanpham",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "giaBan",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "loaiSanpham",
+      "fieldType": "Loaisanpham",
+      "fieldValues": "DIENTHOAI,MAYTINHXACHTAY,GAMINGGEAR,TAINGHE,LOA,MAYIN,OCUNG,MANHINHMAYTINH"
+    },
+    {
+      "fieldName": "soluong",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "sanphammoi",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "overView",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dungLuong",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "maHoa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tocDo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mTBF",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nANDFlash",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "heDieuhanhhotro",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "electronice_device",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211124082540"
+}
